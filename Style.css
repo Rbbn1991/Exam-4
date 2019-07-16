@@ -1,0 +1,185 @@
+body{
+  margin: 0;
+  padding: 0;
+
+  color: black;
+  background-color: grey;
+
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+
+
+}
+
+html{
+  border-top: 10px solid orange;
+  border-bottom: 10px solid orange;
+}
+
+.wrapper{
+  max-width: 850px;
+  margin: 0 auto;
+  padding-right: 50px;
+  padding-left: 50px;
+  width: 100%;
+  height: 100%;
+}
+
+/* Banner */
+
+.Save_the_date{
+  color: black;
+  height: 400px;
+  width: 100%;
+  background-image: url(Image/wedding_banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 100px;
+  padding-left: 25px;
+}
+
+/* Navigation */
+
+.menu a.current{
+  background-color: white;
+  color: black;
+}
+
+.menu a:hover,
+.menu a:focus{
+  background-color: white;
+  color: black;
+}
+
+.menu ul {
+  margin: 0;
+  background-color: orange;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+
+}
+
+.menu li{
+  margin: 5px;
+  flex: 1 0 auto;
+}
+
+.menu a{
+  text-decoration: none;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  display: block; /* Otherwise it is not possible the padding*/
+  padding: 5px 20px;
+}
+
+/*Main Part*/
+
+
+.img-txt-container{
+  display: flex;
+  justify-content: space-around;
+  flex: 1 0 auto;
+
+}
+
+.txt-container h2{
+  text-align: center;
+  font-size: 30px;
+  color: orange;
+  background-color: white;
+  margin: 0;
+  height: 50px;
+
+}
+
+
+
+.txt-content p{
+  text-align: right;
+}
+
+.txt-container p{
+  text-align: center;
+  padding-top: 80px;
+}
+
+footer{
+  text-align: center;
+}
+
+/* Event Page */
+
+.event_container{
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+  margin: 0;
+  padding: 0;
+
+}
+
+
+
+.event h2{
+  background-color: white;
+  text-align: center;
+  width: auto;
+
+}
+
+
+.Banner_location{
+  height: 400px;
+  width: 100%;
+  background-image: url(Image/location.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+
+.Location_info{
+  margin-left: 20px;
+  padding: 30px;
+  background-color: white;
+  width: 300px;
+  text-align: center;
+
+}
+
+
+/* RVSP Page */
+.Backgroup_RVSP{
+  background-image: url(Image/RSPV_background.jpg);
+  height: 400px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+
+
+}
+.Backgroup_RVSP h2{
+  padding-top: 100px;
+}
+
+.Backgroup_RVSP ul{
+  display: flex;
+  justify-content: space-around;
+}
+.Backgroup_RVSP li{
+  list-style: none;
+  height: 50px;
+}
+
+.Backgroup_RVSP a{
+  height: 20px;
+}
